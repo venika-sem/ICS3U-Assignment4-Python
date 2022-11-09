@@ -20,7 +20,11 @@ def main():
             case 3:
                 print("A polygon with {0} sides is a triangle.".format(side_as_number))
             case 4:
-                print("A polygon with {0} sides is a quadrilateral.".format(side_as_number))
+                print(
+                    "A polygon with {0} sides is a quadrilateral.".format(
+                        side_as_number
+                    )
+                )
             case 5:
                 print("A polygon with {0} sides is a pentagon.".format(side_as_number))
             case 6:
